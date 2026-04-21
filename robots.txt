@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lh15716789989.gitee.io/sitemap.xml
