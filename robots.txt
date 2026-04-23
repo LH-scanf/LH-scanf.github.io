@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://LH_scanf.top/sitemap.xml
+Sitemap: https://lh-scanf.github.io/sitemap.xml
