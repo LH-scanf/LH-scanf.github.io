@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no, email=no, address=no">
 
     <meta name="generator" content="Gridea Pro 1.2.2">
-    <title>标签 | LH_scanf.top</title>
+    <title>ROS-SLAM解决方案 | LH_scanf.top</title>
 
     
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
@@ -249,25 +249,26 @@
     
 
     
-<meta name="description" content="LH个人博客">
-<link rel="canonical" href="https://lh-scanf.github.io/tags/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"LH_scanf.top","url":"https://lh-scanf.github.io","description":"LH个人博客","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":"https://lh-scanf.github.io/search?q={search_term_string}"}}</script>
-<meta property="og:title" content="LH_scanf.top">
-<meta property="og:description" content="LH个人博客">
-<meta property="og:url" content="https://lh-scanf.github.io/tags/">
-<meta property="og:type" content="website">
+<meta name="description" content="概述 车辆通过部署在树莓派上的ROS2作为主控，控制车辆前进后退转弯。车辆只需要向外暴漏出CAN协议口即可控制整车。 用户通过部署在windows系统地面站，通过网关远程连接车辆，实时接收车辆相关信息：建模地图，GPS，相关状态等。 主要技术栈 ROS SLAM NAV2 WebSocket RTK GNSS">
+<link rel="canonical" href="https://lh-scanf.github.io/post/ros-slamjie-jue-fang-an/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"ROS-SLAM解决方案","url":"https://lh-scanf.github.io/post/ros-slamjie-jue-fang-an/","description":"概述 车辆通过部署在树莓派上的ROS2作为主控，控制车辆前进后退转弯。车辆只需要向外暴漏出CAN协议口即可控制整车。 用户通过部署在windows系统地面站，通过网关远程连接车辆，实时接收车辆相关信息：建模地图，GPS，相关状态等。 主要技术栈 ROS SLAM NAV2 WebSocket RTK GNSS","datePublished":"2026-07-01T15:33:02+08:00","dateModified":"2026-07-27T23:15:39+08:00","author":{"@type":"Person","name":"LH_scanf.top"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"LH_scanf.top"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://lh-scanf.github.io","name":"LH_scanf.top","position":1},{"@type":"ListItem","item":"https://lh-scanf.github.io/post/ros-slamjie-jue-fang-an/","name":"ROS-SLAM解决方案","position":2}]}</script>
+<meta property="og:title" content="ROS-SLAM解决方案">
+<meta property="og:description" content="概述 车辆通过部署在树莓派上的ROS2作为主控，控制车辆前进后退转弯。车辆只需要向外暴漏出CAN协议口即可控制整车。 用户通过部署在windows系统地面站，通过网关远程连接车辆，实时接收车辆相关信息：建模地图，GPS，相关状态等。 主要技术栈 ROS SLAM NAV2 WebSocket RTK GNSS">
+<meta property="og:url" content="https://lh-scanf.github.io/post/ros-slamjie-jue-fang-an/">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="LH_scanf.top">
 <meta property="og:image" content="/images/avatar.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://lh-scanf.github.io/tags/">
-<meta name="twitter:title" content="LH_scanf.top">
-<meta name="twitter:description" content="LH个人博客">
+<meta name="twitter:url" content="https://lh-scanf.github.io/post/ros-slamjie-jue-fang-an/">
+<meta name="twitter:title" content="ROS-SLAM解决方案">
+<meta name="twitter:description" content="概述 车辆通过部署在树莓派上的ROS2作为主控，控制车辆前进后退转弯。车辆只需要向外暴漏出CAN协议口即可控制整车。 用户通过部署在windows系统地面站，通过网关远程连接车辆，实时接收车辆相关信息：建模地图，GPS，相关状态等。 主要技术栈 ROS SLAM NAV2 WebSocket RTK GNSS">
 <meta name="twitter:image" content="/images/avatar.png">
 </head>
 
-<body>
+    <body>
 
-<script>
+        <script>
     (function () {
         const getSystemTheme = () => {
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -327,53 +328,100 @@
 </header>
 <!-- <a href="#" id="back-to-top" style="display: inline;"> ^ </a> -->
 
-<article class="mod-post mod-post__type-post">
+            <article class="mod-post mod-post__type-post">
+                <header>
+                    <h1 class="mod-post__title">
+                        ROS-SLAM解决方案
+                    </h1>
+                </header>
 
-    <header>
-        <h1 class="mod-post__title">
-            标签
-        </h1>
-    </header>
+                <div class="mod-post__meta">
+                    <time datetime="2026-07-01">
+                        2026-07-01
+                    </time> • 1 分钟阅读 •
+                        
+                            <a href="/tag/ros/">
+                                ROS
+                            </a>
+                             · 
+                                    
+                            <a href="/tag/slam/">
+                                SLAM
+                            </a>
+                            
+                                    
+                </div>
 
-    <div class="mod-post__entry wzulli">
 
-        <div class="tags">
+
+                <div class="mod-post__entry wzulli">
+                    
+                            <h1 id="heading">概述</h1>
+<p>车辆通过部署在树莓派上的ROS2作为主控，控制车辆前进后退转弯。车辆只需要向外暴漏出CAN协议口即可控制整车。<br />
+用户通过部署在windows系统地面站，通过网关远程连接车辆，实时接收车辆相关信息：建模地图，GPS，相关状态等。</p>
+<h1 id="heading-1">主要技术栈</h1>
+<p>ROS<br />
+SLAM<br />
+NAV2<br />
+WebSocket<br />
+RTK GNSS</p>
+
+                </div>
+
+            </article>
+
+
             
-                <ul class="tags-list">
-                    
-                        <li>
-                            <a href="/tag/book/" rel="tag" class="size-10" title="1 个话题">
-                                # 读书笔记 <span>(1)</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="/tag/hard/" rel="tag" class="size-10" title="1 个话题">
-                                # 硬件 <span>(1)</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="/tag/ros/" rel="tag" class="size-10" title="1 个话题">
-                                # ROS <span>(1)</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="/tag/slam/" rel="tag" class="size-10" title="1 个话题">
-                                # SLAM <span>(1)</span>
-                            </a>
-                        </li>
-                    
-                </ul>
-            
-        </div>
+                
+	<div class="mod-post__foot">
+	 文章标签: 
+     
+        <a href="/tag/ros/">ROS</a>, 
+     
+        <a href="/tag/slam/">SLAM</a>
+     
+     </br>
+	</div>
 
-    </div>
+                    
 
-</article>
+                        <div class="mod-post__poster">
+                        </div>
 
-<footer id="footer" class="footer">
+                        </div>
+
+                        
+                            
+<br>
+
+<div style="margin-bottom: 10px;">
+    上一篇 : <a href="/post/about/">关于</a>
+</div>
+
+
+
+<div style="margin-bottom: 40px;">
+    下一篇 : <a href="/post/i-walked-in-terrestrial-temple/">&lt;我与地坛&gt;</a>
+</div>
+
+
+</div>	
+
+                                
+
+                                    
+                                        <!-- Reading Progress Component -->
+<div class="reading-progress-container">
+  <span class="reading-label">阅读进度</span>
+  <span class="reading-value">0%</span>
+  <svg class="progress-ring" viewBox="0 0 24 24">
+    <!-- Background Circle -->
+    <circle class="progress-ring__circle-bg" stroke-width="3" fill="transparent" r="10" cx="12" cy="12" />
+    <!-- Progress Circle -->
+    <circle class="progress-ring__circle" stroke-width="3" fill="transparent" r="10" cx="12" cy="12" />
+  </svg>
+</div>
+                                            <footer id="footer" class="footer">
     <nav>
         
             
@@ -427,6 +475,8 @@
 
 
 
-<script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: amore v1.1.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+
+    <script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: amore v1.1.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
 </body>
-</html>
+
+    </html>
